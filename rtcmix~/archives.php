@@ -17,9 +17,9 @@
 
 <h3>Mac OS X</h3>
 
+<a href="/rtcmix~/downloads/rtcmix~_1.92_osx_max6.zip">rtcmix~_1.92_osx_max6.zip</a> - Max 5 and 6<br />
 <a href="/rtcmix~/downloads/rtcmix~_1.7_osx_max5.zip">rtcmix~_1.7_osx_max5.zip</a> - Max 5<br />
 <a href="downloads/rtcmix~_1.6_osx_max4.x.zip">rtcmix~_1.6_osx_max4.x.zip</a> - Max 4
-
 
 <h3>Windows XP</h3>
 

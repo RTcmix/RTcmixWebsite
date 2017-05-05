@@ -142,6 +142,7 @@ slightly more advanced:
 
 <a href="/reference/scorefile/maketable.php">maketable</a>,
 <a href="AMINST.php">AMINST</a>,
+<a href="MULTIFM.php">MULTIFM</a>,
 <a href="MULTIWAVE.php">MULTIWAVE</a>,
 <a href="WAVETABLE.php">WAVETABLE</a>,
 <a href="WAVESHAPE.php">WAVESHAPE</a>,

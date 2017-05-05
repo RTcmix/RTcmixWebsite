@@ -28,15 +28,23 @@ An RTcmix instrument is a scorefile or interface-object command that will create
 
 <h2>Synthesis</h2>
 
+
 <ul>
 	<li><a href="AMINST.php">AMINST</a> -- amplitude modulator (synthesis)
+	<li><a href="BROWN.php">BROWN</a> -- brown noise instrument
+	<li><a href="CRACKLE.php">CRACKLE</a> -- chaotic noise generator
+	<li><a href="DUST.php">DUST</a> -- random impulses
 	<li><a href="FMINST.php">FMINST</a> -- frequency modulator (synthesis)
 	<li><a href="GRANSYNTH.php">GRANSYNTH</a> -- granular synthesis
 	<li><a href="HALFWAVE.php">HALFWAVE</a> -- constructed wavetable (synthesis)
+	<li><a href="HENON.php">HENON</a> -- Henon map noise generator
 	<li><a href="JGRAN.php">JGRAN</a> -- granular synthesis
+	<li><a href="LATOOCARFIAN.php">LATOOCARFIAN</a> -- chaotic noise generator
 	<li><a href="LPCPLAY.php">LPCPLAY</a> -- Linear Predective Coding (LPC) resynthesis
+	<li><a href="MULTIFM.php">MULTIFM</a> -- configurable multi-oscillator FM synthesis instrument
 	<li><a href="MULTIWAVE.php">MULTIWAVE</a> -- additive synthesis
 	<li><a href="NOISE.php">NOISE</a> -- make noise
+	<li><a href="PINK.php">PINK</a> -- pink noise instrument
 	<li><a href="SCULPT.php">SCULPT</a> -- frequency/amplitude pair-based resynthesis
 	<li><a href="SGRANR.php">SGRANR</a> -- stochastic granular synthesis
 	<li><a href="SYNC.php">SYNC</a> -- 'hard' sync oscillator synthesis instrument
@@ -192,19 +200,21 @@ An RTcmix instrument is a scorefile or interface-object command that will create
 </span>
 
 <span id="alphabetical" style="display:none;">
-
+	
 <table width="100%">
 	<tr>
 		<td valign="top">
 			<ul>
 				<li><a href="AM.php">AM</a>
 				<li><a href="AMINST.php">AMINST</a>
+				<li><a href="BROWN.php">BROWN</a>
 				<li><a href="BUTTER.php">BUTTER</a>
 				<li><a href="CHAIN.php">CHAIN</a>
 				<li><a href="CLAR.php">CLAR</a>
 				<li><a href="COMBIT.php">COMBIT</a>
 				<li><a href="COMPLIMIT.php">COMPLIMIT</a>
 				<li><a href="CONVOLVE1.php">CONVOLVE1</a>
+				<li><a href="CRACKLE.php">CRACKLE</a>
 				<li><a href="DCBLOCK.php">DCBLOCK</a>
 				<li><a href="DECIMATE.php">DECIMATE</a>
 				<li><a href="DEL1.php">DEL1</a>
@@ -212,6 +222,7 @@ An RTcmix instrument is a scorefile or interface-object command that will create
 				<li><a href="DISTORT.php">DISTORT</a>
 				<li><a href="DMOVE.php">DMOVE</a>
 				<li><a href="DUMP.php">DUMP</a>
+				<li><a href="DUST.php">DUST</a>
 				<li><a href="ELL.php">ELL</a>
 				<li><a href="EQ.php">EQ</a>
 				<li><a href="FIR.php">FIR</a>
@@ -227,6 +238,7 @@ An RTcmix instrument is a scorefile or interface-object command that will create
 				<li><a href="GRANULATE.php">GRANULATE</a>
 				<li><a href="GVERB.php">GVERB</a>
 				<li><a href="HALFWAVE.php">HALFWAVE</a>
+				<li><a href="HENON.php">HENON</a>
 				<li><a href="HOLO.php">HOLO</a>
 				<li><a href="IIR.php">IIR</a>
 					<ul>
@@ -245,6 +257,7 @@ An RTcmix instrument is a scorefile or interface-object command that will create
 		<td valign="top">
 			<ul>
 				<li><a href="JGRAN.php">JGRAN</a>
+				<li><a href="LATOOCARFIAN.php">LATOOCARFIAN</a>
 				<li><a href="LPCPLAY.php">LPCPLAY</a>
 				<li><a href="LPCPLAY.php">LPCIN</a>
 				<li><a href="MAXBANG.php">MAXBANG</a>
@@ -276,11 +289,13 @@ An RTcmix instrument is a scorefile or interface-object command that will create
 				<li><a href="MSITAR.php">MSITAR</a>
 				<li><a href="MULTICOMB.php">MULTICOMB</a>
 				<li><a href="MULTEQ.php">MULTEQ</a>
+				<li><a href="MULTIFM.php">MULTIFM</a>
 				<li><a href="MULTIWAVE.php">MULTIWAVE</a>
 				<li><a href="NOISE.php">NOISE</a>
 				<li><a href="NPAN.php">NPAN</a>
 				<li><a href="PAN.php">PAN</a>
 				<li><a href="PANECHO.php">PANECHO</a>
+				<li><a href="PINK.php">PINK</a>
 				<li><a href="PFSCHED.php">PFSCHED</a>
 				<li><a href="PLACE.php">PLACE</a>
 				<li><a href="PVOC.php">PVOC</a>

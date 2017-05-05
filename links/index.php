@@ -15,13 +15,14 @@
 <h2>Discussion List</h2>
 
 <ul>
-	<li><a href="http://music.columbia.edu/mailman/listinfo/rtcmix-discuss">Subscribe</a>
-	<li><a href="http://music.columbia.edu/pipermail/rtcmix-discuss">Archives</a>
+	<li><a href="https://lists.columbia.edu/mailman/listinfo/rtcmix-discuss">Subscribe</a>
+	<li><a href="https://lists.columbia.edu/mailman/private/rtcmix-discuss/">Archives</a>
 </ul>
 
 <h2>Educational</h2>	
 
 <ul>
+	<li>Jerod Sommerfeldt's book <a href="https://jerodsommerfeldt.com/rtcmix-book/">Computer Music Composition with RTcmix</a>
 	<li>John Gibson's <a href="http://iub.edu/~emusic/509/rtcmixtut.htm">Computer Music Seminar RTcmix Tutorial</a>
 	<li>Brad Gartons's Spring 2012 <a href="http://music.columbia.edu/cmc/courses/g6611/spring2012/syl.html">Graduate Computer Music Class</a>
 		<ul>

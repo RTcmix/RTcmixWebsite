@@ -20,6 +20,8 @@
 	<li><a href="bus_config.php">Using bus_config to chain together RTcmix instruments</a></li>
 </ul>
 
+<!--
+
 <h2>iRTcmix</h2>
 
 <ul>
@@ -28,6 +30,8 @@
 	<li><a href="/tutorials/irtcmix/helloirtcmix.php">Hello iRTcmix Tutorial</a><br />
 	A walk-through of the first project from the <a href="/irtcmix/">"iRTcmix Basics" demo distrubution</a>.</li>
 </ul>
+
+-->
 
 <h2>RTcmix in Other Environments</h2>
 
@@ -44,7 +48,7 @@
 </ul>	
 <br />
 
-See the the <a href="/reference/">Reference</a> and <a href="/links/">Links</a> sections for more learning materials. If you have questions about using RTcmix, you can ask the <a href="http://music.columbia.edu/mailman/listinfo/rtcmix-discuss">RTcmix Discussion List</a>.
+See the the <a href="/reference/">Reference</a> and <a href="/links/">Links</a> sections for more learning materials. If you have questions about using RTcmix, you can ask the <a href="https://lists.columbia.edu/mailman/listinfo/rtcmix-discuss">RTcmix Discussion List</a>.
 
 		
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.inc'); ?>

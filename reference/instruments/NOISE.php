@@ -66,11 +66,16 @@ very basic:
 </pre>
 <br>
 
-
 <hr>
 <h3>See Also</h3>
 
-<a href="IIR.php">IIR</a>
+<a href="BROWN.php">BROWN</a>,
+<a href="CRACKLE.php">CRACKLE</a>,
+<a href="DUST.php">DUST</a>,
+<a href="HENON.php">HENON</a>,
+<a href="IIR.php">IIR</a>,
+<a href="LATOOCARFIAN.php">LATOOCARFIAN</a>,
+<a href="PINK.php">PINK</a>
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.inc'); ?>
 

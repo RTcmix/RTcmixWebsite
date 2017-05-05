@@ -69,7 +69,7 @@ I was still using RTcmix a fair amount in my own musical work, but I also began 
 <p>
 I had noticed that many of our students at Columbia were adopting <a href="http://www.cycling74.com/products/maxmsp.html">Max/MSP</a> as a base for their computer music operations.  The Max/MSP <a href="/rtcmix~/">rtcmix~</a> object was created to bring the Joy of RTcmix to this environment.  The recent Windows XP port of this object allowed us to build an executable RTcmix for Windows without too much additional pain.
 <p>
-That's the story so far.  With a solid Linux version and an equally solid port to Mac OSX (and the hybrid RTcmix-Max/MSP Windows version), we believe that RTcmix should be attractive for other programmers-musicians-audio people. Please browse through the documentation here (especially the <a href="/tutorials/">tutorials</a>), <a href="/rtcmix/">download</a> and try a few instruments, join the <a href="http://music.columbia.edu/mailman/listinfo/rtcmix-discuss">RTcmix discussion list</a>, etc.
+That's the story so far.  With a solid Linux version and an equally solid port to Mac OSX (and the hybrid RTcmix-Max/MSP Windows version), we believe that RTcmix should be attractive for other programmers-musicians-audio people. Please browse through the documentation here (especially the <a href="/tutorials/">tutorials</a>), <a href="/rtcmix/">download</a> and try a few instruments, join the <a href="https://lists.columbia.edu/mailman/listinfo/rtcmix-discuss">RTcmix discussion list</a>, etc.
 <p>
 We hope you find the language useful!
 <p>

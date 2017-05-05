@@ -37,7 +37,7 @@
 <br />
 
 
-See the the <a href="/tutorials/">Tutorials</a> and <a href="/links/">Links</a> sections for more learning materials. If you have questions about using RTcmix, you can ask the <a href="http://music.columbia.edu/mailman/listinfo/rtcmix-discuss">RTcmix Discussion List</a>.
+See the the <a href="/tutorials/">Tutorials</a> and <a href="/links/">Links</a> sections for more learning materials. If you have questions about using RTcmix, you can ask the <a href="https://lists.columbia.edu/mailman/listinfo/rtcmix-discuss">RTcmix Discussion List</a>.
 
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.inc'); ?>
