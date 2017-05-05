@@ -1,0 +1,28 @@
+body{background-color:#b5b5b5; color:#000000; margin:0; font-family:Myriad Pro, Trebuchet MS, Helvetica, Arial, Sans-Serif;}
+
+h1{font-size:28px;}
+h2{font-size:22px;}
+h3{font-size:18px;}
+h4, h5, h6{font-size:16px;}
+
+pre{font-size:12px; white-space: pre-wrap;}
+
+a{color:#006688; text-decoration:none;}
+a:visited{color:#7b1664; text-decoration:none;}
+a:hover{text-decoration:underline;}
+a.logo{color:#7b1664; font-size:38px;}
+a.logo:visited{color:#7b1664;}
+a.logo:hover{text-decoration:none;}
+a.sort:visited{color:#006688;}
+a.internallink{color:#000000; text-decoration:none;}
+
+table.mainnav{background-color:#7b1664; color:#f4f4f3; height:40px; width:100%; font-size:16px;}
+table.mainnav a{color:#f4f4f3;}
+
+table.header{width:640px; color:#f4f4f3; font-size:16px;}
+table.header a{color:#7b1664;}
+span.tagline{font-size:12px; color:#000000}
+p.smaller{font-size:13px;}
+
+table.bodycopy{background-color:#f4f4f3; width:646px; position:relative; top:10px; padding:12px; box-shadow: 2px 2px 6px #777; -webkit-border-radius:8px; -moz-border-radius:8px; border-radius:8px; font-size:16px;}
+

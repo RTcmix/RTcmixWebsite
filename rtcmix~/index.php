@@ -1,0 +1,130 @@
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>RTcmix - rtcmix~</title>
+	
+	<link rel="stylesheet" type="text/css" href="/includes/style.css">
+	
+</head>
+<body>
+	
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.inc'); ?>
+
+
+<h1>rtcmix~</h1>
+
+<table border="0" cellspacing="6" cellpadding="6" width="250" align="right">
+	<tr>
+		<td bgcolor="dddddd">
+			<i>rtcmix~</i> is also available for the <a href="http://puredata.info">Pd</a>
+				visual programming language, ported by <a href="http://joel.matthysmusic.com">Joel Matthys</a>
+			<ul>
+				<li><a href="http://puredata.info/Members/jwmatthys/">Binaries for OSX and Linux</a></li>
+				<li><a href="https://github.com/jwmatthys/rtcmix-in-pd">source files</a></li>
+			</ul>
+		</td>
+	</tr>
+</table>
+
+RTcmix is a complete sound synthesis and signal processing language, including a robust scheduler and large set of pre-compiled "instruments". The rtcmix~ object completely encapsulates RTcmix within the <a href="http://cycling74.com/products/max/">Max/MSP</a> real-time music environment, extending the capabilities of Max/MSP.
+
+<h2>Download and Install</h2>
+
+Current versions are available for Max 5 (and above) for Mac OS X and Windows XP. Older versions are available <a href="/rtcmix~/archives.php">in the archives</a>.
+
+<h3>Mac OS X Directions</h3>
+
+<ul>
+	<li>Download: <a href="/rtcmix~/downloads/rtcmix~_1.92_osx_max6.zip">rtcmix~_1.92_osx_max6.zip</a></li>
+</ul>
+
+This archive will unpack into a single "rtcmix~_1.92_osx_max6/" folder. Inside this folder are two sub-folders, "RTcmix/" and "RTcmix-help-2.8/" You will need to place them somewhere on the Max5 search path. We recommend putting the "RTcmix/" folder in
+
+	<pre>
+   /Applications/Max5/Cycling '74/msp-externals/</pre>
+   
+and the "RTcmix-help-2.8/" folder in
+
+	<pre>
+   /Applications/Max5/Cycling '74/msp-help/</pre>
+
+Move the entire "RTcmix/" and "RTcmix-help/" folders intact -- do not take the <i>rtcmix.mxo</i> object or <i>rtcmix~.maxhelp</i> patches out of the folders!
+<p>
+<i>NOTE:  Be sure to remove any existing "RTcmix/" folders, "RTcmix-help/" folders, or </i>rtcmix~<i> objects from the search path.</i>
+<p>
+
+<h3>Windows XP Directions</h3>
+
+<ul>
+	<li>Download: <a href="/rtcmix~/downloads/rtcmix~_1.7_wxp_max5.zip">rtcmix~_1.7_wxp_max5.zip</a></li>
+</ul>
+
+
+Download the above archive file. This should leave a folder, "rtcmix~_1.7_wxp_max5/" containing the following items:
+
+<ul>
+	<li>the <i>rtcmix~.mxe</i> Max5 external object
+	<li>a subfolder, "RTcmix-help/"
+</ul>
+
+Place the <i>rtcmix~.mxe</i> external object into the Max5 externals folder, usually located here:
+
+	<pre>
+   c:\Program Files\Cycling '74\Max 5.0\msp-externals\</pre>
+   
+The "RTcmix-help/" folder should be moved intact (i.e. do not take the <i>rtcmix~.maxhelp</i> patch out of it!) to the Max5 help directory, often located here:
+
+	<pre>
+   c:\Program Files\Cycling '74\Max 5.0\max-help\</pre>
+   
+Start up Max5, instantiate an rtcmix~ object, option-click for the help patches, and off you go!
+
+
+<h3>Source Code</h3>
+
+Zip archives of the RTcmix source code and <i>Xcode</i> project files for the Mac OSX rtcmix~ object and supportng libraries.
+
+<ul>
+	<li>Latest Mac OS X version: <a href="/rtcmix~/downloads/rtcmix~_1.92_src.zip">rtcmix~_1.92_src.zip</a></li>
+	<li>Latest Windows XP version: <a href="/rtcmix~/downloads/wrtcmix~-v1.7_src.zip">wrtcmix~-v1.7_src.zip</a></li>
+</ul>
+
+<h2>Features</h2>
+
+<ul>
+	<li>The rtcmix~ object can load, parse and run existing <i>RTcmix</i> scorefiles.  A set of internal buffers and buffer-editing routines are included with the object.</li><br />
+
+	<li>A large set of mathematical and data-manipulation/storage routines are available with the rtcmix~ object, including the ability to define and use arbitrary new operations.</li><br />
+
+	<li>rtcmix~ enables the Max/MSP user to write procedural code for particular algorithmic operations.  For example, a valid <i>RTcmix</i> script executing in the rtcmix~ object might be something like:
+	
+	<li>Approximately 120 existing <i>RTcmix</i> synthesis and signal-processing instruments are currently accessible in the rtcmix~ object, including a set of FFT/PVOC-based spectral manipulation tools, real-time Linear Prediction Coding (LPC) analysis/resynthesis, and most of the <a href="http://www-ccrma.stanford.edu/software/stk/">Synthesis ToolKit (STK)</a> physical models created by Perry Cook and Gary Scavone.</li><br />
+
+	<pre>
+	for (time = 0; time < 14.9; time = time + 0.35) {
+		USE_AN_INSTRUMENT(time, p1, p2, p3...)
+	}</pre></li>
+
+	<li>In a similar fashion, the rtcmix~ object can schedule Max/MSP messages and events.  The following rtcmix~ script will produce 100 'bangs' randomly spaced in a 7-second interval:
+
+	<pre>
+	for (i = 0; i < 100; i = i+1) {
+		bangtime = irand(0.0, 7.0)
+		MAXBANG(bangtime)
+	}</pre></li>
+
+	<li>rtcmix~ provides an easy framework for linkage between Max/MSP and arbitrary C/C++ functions and objects, including separately-compiled mach-o C/C++ code.</li><br />
+</ul>
+
+
+<h2>Final Words on This Web Page</h2>
+
+RTcmix was originally written by Brad Garton and Dave Topper, adding real-time capabilities to the cmix music-programming language developed by Paul Lansky.  John Gibson, Doug Scott (and others) added significant extensions to the package.
+<p>
+The rtcmix~ object was written by Brad Garton with much advice and assistance from Dan Trueman and Luke DuBois (Dan wrote the internal buffer script-editing code).  Joshua Kit Clayton was an invaluable resource, as always. Thanks guys!
+<p>
+I hope this may be useful for others; I'm having a blast with it.  Let me know what you think!
+<p>
+Brad Garton
+	
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/foot.inc'); ?>

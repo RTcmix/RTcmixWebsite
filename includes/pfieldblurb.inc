@@ -1,0 +1,1 @@
+<p class="smaller">CAPITALIZED parameters are <a href="pfield-enabled.asp">pfield-enabled</a> for table or dynamic control (see the <a href="/reference/scorefile/maketable.asp">maketable</a> or <a href="/reference/scorefile/makeconnection.asp">makeconnection</a> scorefile commands).  Parameters after the [bracket] are optional and default to 0 unless otherwise noted.</p>
