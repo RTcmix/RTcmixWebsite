@@ -22,8 +22,9 @@
 <h2>Educational</h2>	
 
 <ul>
+	<li>Felipe Tovar-Henao's video <a href="https://www.youtube.com/watch?v=4XDyHbYHrN8&list=PLY28U8LUrteYyuiGlvKqzR_p5IuAQvy2r">RTcmix tutorials</a>
 	<li>Jerod Sommerfeldt's book <a href="https://jerodsommerfeldt.com/rtcmix-book/">Computer Music Composition with RTcmix</a>
-	<li>John Gibson's <a href="http://iub.edu/~emusic/509/rtcmixtut.htm">Computer Music Seminar RTcmix Tutorial</a>
+	<li>John Gibson's <a href="https://cecm.indiana.edu/rtcmix/rtcmixtut.html">Computer Music Seminar RTcmix Tutorial</a>
 	<li>Brad Gartons's Spring 2012 <a href="http://music.columbia.edu/cmc/courses/g6611/spring2012/syl.html">Graduate Computer Music Class</a>
 		<ul>
 			<li><a href="http://music.columbia.edu/cmc/courses/g6611/spring2012/week3/index.html">Instrument Design: Part 1</a>
@@ -48,12 +49,12 @@ tutorial, week2-3, interface tutorial week4-5)
 <h2>Music</h2>
 
 <ul>
-	<li><a href="https://soundcloud.com/groups/rtcmix">RTcmix Soundcloud Group</a></li>
 	<li><a href="http://music.columbia.edu/~brad/music/">Lots and lots of music</a> by <a href="http://bradgarton.com">Brad Garton</a></li>
+	<li><a href="https://soundcloud.com/dascott/sets/piano-project">Piano Project</a> by <a href="http://music.columbia.edu/~doug">Doug Scott</a></li>
 	<li><a href="http://john-gibson.com/pieces/daytrip.htm">Day Trip</a> by <a href="http://john-gibson.com">John Gibson</a></li>
 	<li><a href="https://soundcloud.com/johgibso/slumber">Slumber</a> by <a href="http://john-gibson.com">John Gibson</a></li>
 	<li><a href="http://john-gibson.com/pieces/thrum.htm">Thrum</a> by <a href="http://john-gibson.com">John Gibson</a></li>
-	<li><a href="https://soundcloud.com/rustleworks/sets/character-weekend-02-1">Character Weekend 02</a> by <a href="http://damonholzborn.com">Damon Holzborn</a></li>
+	<li><a href="https://damonholzborn.bandcamp.com/album/character-weekend-02">Character Weekend 02</a> by <a href="http://damonholzborn.com">Damon Holzborn</a></li>
 	<li><a href="https://soundcloud.com/jwmatthys/sets/rtcmix">A set of RTcmix works</a> by <a href="http://joel.matthysmusic.com">Joel Matthys</a>
 	<li><a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=y_Y6w0Y4cy0">MyDinnerWithASpectrogram</a> by <a href="http://davidmcdonnellmusic.com">David McDonnell</a></li>
 	<li><a href="http://pareidoliaudio.tumblr.com/">Script Calendar</a> by <a href="http://www.jerodsommerfeldt.com">Jerod Sommerfeldt</a></li>

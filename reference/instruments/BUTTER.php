@@ -18,7 +18,7 @@
 	<br>
 	<hr>
 	<h5>quick syntax:</h5>
-	<b>BUTTER</b>(outsk, insk, dur, AMP, FILTTYPE, steepness, ampbalance, inputchan, PAN, BYPASS, FREQENV[, BANDWIDTH])
+	<b>BUTTER</b>(outsk, insk, dur, INAMP, FILTTYPE, steepness, ampbalance, inputchan, PAN, BYPASS, FREQENV[, BANDWIDTH, ringdur, OUTAMP])
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/pfieldblurb.inc'); ?>
 	<hr>
 	<br>
@@ -29,7 +29,8 @@
    p2 = input duration (seconds)
    p3 = amplitude multiplier (relative multiplier of input signal)
    p4 = type of filter ("lowpass", "highpass", "bandpass", "bandreject";
-      or numeric codes for the filter type (1: lowpass, 2: highpass, 3: bandpass, 4: bandreject)
+        or numeric codes for the filter type (1: lowpass, 2: highpass, 
+        3: bandpass, 4: bandreject)
    p5 = steepness (> 0) (1 is a good starting value)
    p6 = balance output and input signals (0:no, 1:yes) (usually use 1)
    p7 = input channel
@@ -37,15 +38,18 @@
    p9 = bypass filter (0: bypass off, 1: bypass on) (usually use 0)
    p10 = filter frequency (Hz)
    p11 = filter bandwidth for bandpass/reject types (Hz if positive;
-      if negative, the '-' sign acts as a flag to interpret the bw values
-      as a multiplier (0.0-1.0) of the current center frequency.
-      [optional; only used for "bandpass" or "bandreject" filters])
+         if negative, the '-' sign acts as a flag to interpret the bw values
+         as a multiplier (0.0-1.0) of the current center frequency.
+         [optional; only used for "bandpass" or "bandreject" filters])
+   p12 = ringdown duration [optional, default is 0.1]
+   p13 = output amplitude multiplier [optional, default is 1.0]
 
-   p3 (amplitude), p4 (type), p8 (pan), p9 (bypass), p10 (freq) and 
-   p11 (bandwidth) can receive dynamic updates from a table or real-time
-   control source.  p4 (type) can be updated only when using numeric codes.
+   p3 (amplitude), p4 (type), p8 (pan), p9 (bypass), p10 (freq), p11 (bandwidth) 
+   and p13 (outamp) can receive dynamic updates from a table or real-time 
+   control source. p4 (type) can be updated only when using numeric codes.
 
-   Author: John Gibson (johgibso at indiana dot edu), 12/1/01; rev for v4, JGG, 7/24/04
+   Author: John Gibson (johgibso at indiana dot edu), 12/1/01; 
+   rev for v4, JGG, 7/24/04
 </pre>
 <br>
 <hr>
@@ -70,6 +74,14 @@ the same power as the input.  This means there's less fiddling around
 with p3 to get the right amplitude when steepness is > 1.  However,
 it has drawbacks: it can introduce a click at the start of the sound, it
 can cause the sound to pump up and down a bit, and it eats extra CPU time.
+<p>
+p12 ("ringdown duration") controls how long the filter will ring once the input
+duration has elapsed. This is relevant only when the bandwidth is narrow
+enough to produce an audible ring. Very narrow bandwidths could require
+quite a long time to ring down (5-10 seconds or more).
+<p>
+p13 ("output amplitude multiplier") lets you apply an amplitude envelope
+that spans the entire note, whose total duration is the sum of the input duration and the ringdown duration.
 <p>
 The output of <b>BUTTER</b> can be either mono or stereo.
 

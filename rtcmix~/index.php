@@ -29,27 +29,29 @@
 RTcmix is a complete sound synthesis and signal processing language, including a robust scheduler and large set of pre-compiled "instruments". The rtcmix~ object completely encapsulates RTcmix within the <a href="http://cycling74.com/products/max/">Max/MSP</a> real-time music environment, extending the capabilities of Max/MSP.
 
 <ul>
-	<li>Download: <a href="/rtcmix~/downloads/RTcmix-2.00.zip">RTcmix-2.00.zip</a></li>
+	<li>Download (32 bit): <a href="/rtcmix~/downloads/RTcmix-2.00.zip">RTcmix-2.00.zip</a></li>
+	<li>Download (64 bit): <a href="/rtcmix~/downloads/RTcmix-2.099-64.zip">RTcmix-2.099-64.zip</a></li>
 </ul>
 
 Current versions are available for Max 5 (and above) for Mac OS X. Older versions are available <a href="/rtcmix~/archives.php">in the archives</a>.
 
-<h3>Installion Instructions for Max 7</h3>
+<h3>Installation Instructions for Max 7 and 8</h3>
 
-The archive will unpack to a folder titled "RTcmix-2.00".  Move this entire folder intact to the "/Users/Shared/Max 7/Library" folder.  Restart Max/MSP and the new [rtcmix~] object should show in the Max console as:
+The archive will unpack to a folder titled "RTcmix-2.0xx" (with "-64" appended if it is the 64-bit version). Move this entire folder intact to the "/Users/Shared/Max 7/Library"  or "/Users/Shared/Max 8/Library"  folder. Restart Max/MSP and the new [rtcmix~] object should show in the Max console as:
 
 	<pre>
-   RTcmix music language, v. 2.00 (RTcmix-maxmsp-4.2.1)
+   RTcmix music language, v. 2.0xx (RTcmix-maxmsp-4.3.1)
    </pre>
 
    <p>
-   <i>NOTE:  Be sure to remove any of your older RTcmix or RTcmix-help folders from this folder:</i>
+   <i>NOTE: Be sure to remove any of your older RTcmix or RTcmix-help folders from these folders:</i>
 
 	<pre>
-   /Users/Shared/Max 7/Library
+    /Users/Shared/Max 7/Library 
+    /Users/Shared/Max 8/Library
 	</pre>
 
-<h3>Installion Instructions for Max 5 and 6</h3>
+<h3>Installation Instructions for Max 5 and 6</h3>
 
 This archive will unpack into a single "RTcmix-2.00/" folder. Inside this folder are two sub-folders, "RTcmix/" and "RTcmix-help-2.9/" You will need to place them somewhere on the Max5 search path. We recommend putting the "RTcmix/" folder in:
 

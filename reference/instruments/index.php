@@ -133,6 +133,9 @@ An RTcmix instrument is a scorefile or interface-object command that will create
 	<li><a href="LPCPLAY.php">LPCIN</a> -- Linear Predective Coding (LPC) resynthesis, using input sound through the LPC filters
 	<li><a href="MOOGVCF.php">MOOGVCF</a> -- dynamic resonant low-pass filter
 	<li><a href="MULTEQ.php">MULTEQ</a> -- equalizer instrument with dynamic filter sections
+	<li><a href="VOCODE2.php">VOCODE2</a> -- channel vocoder
+	<li><a href="VOCODE3.php">VOCODE3</a> --  a more flexible channel vocoder
+	<li><a href="VOCODESYNTH.php">VOCODESYNTH</a> --  channel vocoder with oscillator-bank carrier
 </ul>
 
 
@@ -147,6 +150,7 @@ An RTcmix instrument is a scorefile or interface-object command that will create
 	<li><a href="FREEVERB.php">FREEVERB</a> -- good-sounding reverbator
 	<li><a href="GVERB.php">GVERB</a> -- good-sounding reverberator with long reverb times
 	<li><a href="JDELAY.php">JDELAY</a> -- regenerating delay + low-pass filter
+	<li><a href="LOCALIZE.php">LOCALIZE</a> -- delay/amplitude/filter-based localization instrument
 	<li><a href="MMOVE.php">MMOVE</a> -- high-quality room simulation program for moving sources (multiple inputs)
 	<li><a href="MPLACE.php">MPLACE</a> -- high-quality room simulation program for stationary sources (multiple inputs)
 	<li><a href="MOVE.php">MOVE</a> -- high-quality room simulation program for moving sources
@@ -170,9 +174,6 @@ An RTcmix instrument is a scorefile or interface-object command that will create
 	<li><a href="SPECTEQ.php">SPECTEQ</a> -- FFT-based EQ
 	<li><a href="SPECTEQ2.php">SPECTEQ2</a> -- FFT-based EQ (more real-time control)
 	<li><a href="TVSPECTACLE.php">TVSPECTACLE</a> -- FFT-based delay with time-varying properties
-	<li><a href="VOCODE2.php">VOCODE2</a> -- phase vocoder
-	<li><a href="VOCODE3.php">VOCODE3</a> -- phase vocoder
-	<li><a href="VOCODESYNTH.php">VOCODESYNTH</a> -- phase vocoder w/ oscillator-bank resynthesis
 </ul>
 	
 
@@ -250,14 +251,15 @@ An RTcmix instrument is a scorefile or interface-object command that will create
 					</ul>
 				<li><a href="JCHOR.php">JCHOR</a>
 				<li><a href="JDELAY.php">JDELAY</a>
-				<li><a href="JFIR.php">JFIR</a>
 			</ul>
 		</td>
 
 		<td valign="top">
 			<ul>
+				<li><a href="JFIR.php">JFIR</a>
 				<li><a href="JGRAN.php">JGRAN</a>
 				<li><a href="LATOOCARFIAN.php">LATOOCARFIAN</a>
+				<li><a href="LOCALIZE.php">LOCALIZE</a>
 				<li><a href="LPCPLAY.php">LPCPLAY</a>
 				<li><a href="LPCPLAY.php">LPCIN</a>
 				<li><a href="MAXBANG.php">MAXBANG</a>
@@ -298,14 +300,14 @@ An RTcmix instrument is a scorefile or interface-object command that will create
 				<li><a href="PINK.php">PINK</a>
 				<li><a href="PFSCHED.php">PFSCHED</a>
 				<li><a href="PLACE.php">PLACE</a>
-				<li><a href="PVOC.php">PVOC</a>
-				<li><a href="QPAN.php">QPAN</a>
-				<li><a href="REV.php">REV</a>
 			</ul>
 		</td>
 
 		<td valign="top">
 			<ul>
+				<li><a href="PVOC.php">PVOC</a>
+				<li><a href="QPAN.php">QPAN</a>
+				<li><a href="REV.php">REV</a>
 				<li><a href="REVERBIT.php">REVERBIT</a>
 				<li><a href="REVMIX.php">REVMIX</a>
 				<li><a href="ROOM.php">ROOM</a>

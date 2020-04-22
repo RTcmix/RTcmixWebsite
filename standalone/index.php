@@ -12,15 +12,25 @@
 
 <h1>Standalone RTcmix</h1>
 
-This page describes procedures for use of RTcmix in the command line environment. RTcmix compiles and runs on most Unix-like systems, including various flavors of Linux, Mac OSX, IRIX, and FreeBSD. RTcmix is also available to run in Max and Pd via the <a href="/rtcmix~/">rtcmix~ object</a> and the <a href="/irtcmix/">iRTcmix library</a> is available to use in iOS apps (iPhone, iPad, iPod Touch).
+
+<p>RTcmix is availble to run as a standalone app on Mac OS X and Windows and in the command line environments of most Unix-like systems, including Mac OS X and various flavors of Linux, IRIX, and FreeBSD. RTcmix is also available to run in Max and Pd via the <a href="/rtcmix~/">rtcmix~ object</a> and the <a href="/irtcmix/">iRTcmix library</a> is available to use in iOS apps (iPhone, iPad, iPod Touch).</p>
+
+<br><hr>
+
+<h2>RTcmix Standalone Apps</h2>
+
+<p>John Gibson has created two apps that will let you run RTcmix scores without having to learn Unix shell commands. They are available to <a href="https://cecm.indiana.edu/rtcmix/rtcmix-app.html">download for Mac and PC</a>.</p>
 
 
-<h2>Getting RTcmix</h2>
+<br><hr>
+
+<h2>RTcmix on the Command Line</h2>
+
 
 The RTcmix source code lives on GitHub. There are two ways to download it.
 
 <ol>
-	<li>Go to the <a href="https://github.com/RTcmix/RTcmix/releases">RTcmix Releases page</a>, and download the most recent (or other) release, using the "Source code (zip)" or "Source code (tar.gz)" buttons. Unpack this archive, if necessary, by double-clicking its icon. This should produce a folder called "RTcmix-4.1.0" (or a similar version number). Then move this folder into the place where you keep RTcmix source code. The usual place for such things is /usr/local/src, but it can be anywhere.<br /><br /><b>-OR-</b></li><br />
+	<li>Go to the <a href="https://github.com/RTcmix/RTcmix/releases">RTcmix Releases page</a>, and download the most recent (or other) release, using the "Source code (zip)" or "Source code (tar.gz)" buttons. Unpack this archive, if necessary, by double-clicking its icon. This should produce a folder called "RTcmix-4.3.1" (or a similar version number). Then move this folder into the place where you keep RTcmix source code. The usual place for such things is /usr/local/src, but it can be anywhere.<br /><br /><b>-OR-</b></li><br />
 	<li>Assuming you are conversant with git, navigate to a directory where you would like the source code to live, and give this command in the shell:
 	<pre>
 git clone https://github.com/RTcmix/RTcmix</pre></li>

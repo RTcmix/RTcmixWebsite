@@ -135,6 +135,51 @@ All the elements of an array can be modified via operators +, -, *, and / follow
 	[1100, 1200, 1300]
 </pre>
 
+
+
+
+<li><b>Minc</b> allows you to define and use custom data types which are very much like the "struct" concept in the C and C++ languages.  In <b>Minc</b>, a struct type must be named as part of its definition:
+<pre>
+struct MyData { ... }
+</pre>
+What goes between the curly braces is called a member list, and it consists of a comma-separated list of variable declarations:
+<pre>
+struct MyData { string name, float number, list array }
+</pre>
+These variables can be any of the normal built-in <b>Minc</b> types, and there is no limit on the number of member variables.  Their names must all be unique within the struct definition.  For now, structs cannot be nested within each other.
+<p>
+To declare a variable in your score to be a struct, just use the struct type as follows:
+<pre>
+struct MyData instrumentData
+</pre>
+To assign and read from the members, use the "dot" syntax:
+<pre>
+instrumentData.name = "Loud Instrument"
+instrumentData.number = 1
+instrumentData.array = {}
+
+printf("Instrument %s: %f\n", instrumentData.name, instrumentData.number)
+</pre>
+All struct member variables are set to 0 or NULL by default.
+<p>
+You cannot auto-declare struct variables unless you are assigning from one to another:
+<p>
+OK:  
+<pre>
+struct MyData someData;
+// initialize members of someData...
+
+copyOfMyData = someData	// These two now point at the same struct object
+</pre>
+NOT OK:  
+<pre>
+autoStructData.name = "something" // cannot auto-declare 'autoStructData'
+</pre>
+Struct variables may be used as arguments and return types for custom functions.  This is a very convenient way to get lots of different variables into your function calls without having to create long lists of arguments.
+<p>
+
+
+
 <li>Comments may be included in <b>Minc</b> scripts using "C"
 comment syntax:
 <pre>

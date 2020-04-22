@@ -52,13 +52,12 @@ A pan value (0.0 - 1.0)
 <P></P></DL>
 
 
-
 <HR>
 <h3>Examples</h3>
 <pre>
    pan = 0.53
-   powpan = boost(pan)
-   STEREO(0, 0, 3.4, 1.0, powpan)
+   powcorrection = boost(pan)
+   STEREO(0, 0, 3.4, 1.0 * powcorrection, pan)
 </pre>
 
 

@@ -45,14 +45,30 @@ number generator before using <b>trand</b>.  Otherwise, a seed of
 <DL>
 <DT><A NAME="item_minimum_maximum"><i>minimum</i>[optional], <i>maximum</i></A><BR>
 <DD>
-These arguments define the range within which falls
-the random value returned by <b>trand</b>. <b>trand</b>
-includes the lower bound in output, but the upper bound is
-non-inclusive (i.e. <b>trand</b> will return <i>maximum</i> - 1 as
-a high value).
-If <i>minimum</i> is not present, <b>trand</b> will return
-an integer value between 0 and <i>maximum</i> - 1.
-<P></P></DL>
+
+These arguments define the range within which falls the random value returned by <b>trand</b>. Whether the range is inclusive of min or max depends on whether these values are negative:
+
+
+<ul>
+	<li>The range is inclusive of min if min >= 0.</li>
+	<li>The range is inclusive of max if max <= 0.</li>
+</ul>
+
+For example:
+
+<ul>
+	<li>min = 0, max = 10 => return integer between 0 and 9 (inclusive)</li>
+	<li>min = -10, max = 0 => return integer between -9 and 0 (inclusive)</li>
+	<li>min = -10, max = 10 => return integer between -9 and 9 (inclusive)</li>
+	<li>min = 5, max = 10 => return integer between 5 and 9 (inclusive)</li>
+</ul>
+
+If only one arg is present, it is max, and min is set to zero.
+<p>
+If max < min, the two arguments are exchanged so that they are in ascending numerical order (then the rules above are applied to the exchanged min and max values).
+</DL>
+
+<P></P>
 
 
 <HR>

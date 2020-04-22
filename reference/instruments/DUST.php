@@ -31,7 +31,8 @@
    p2 = amplitude multiplier
    p3 = density (average impulses per second) [default: 5]
    p4 = impulse range minimum (-1 or 0) [default: -1]
-   p5 = pan (in percent-to-left format) [default: 0.5]
+   p5 = seed [default: system clock]
+   p6 = pan (in percent-to-left format) [default: 0.5]
 
    p2 (amplitude), p3 (pan), and p4 (density) can receive updates from a table
    or real-time control source.
